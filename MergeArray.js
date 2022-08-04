@@ -21,7 +21,7 @@ function mergeArray(array1, array2) {
             result.push(array1[i])
             i++
             console.log(`called top at i = ${i} j = ${j}`)
-        } else if (array1[i] >= array2[j] || i > array1.length - 1) { //&& j < array2.length) {
+        } else {//if (array1[i] >= array2[j] || i > array1.length - 1) { //&& j < array2.length) {
             result.push(array2[j])
             j++
             console.log(`called bottom at i = ${i} j = ${j}`)
