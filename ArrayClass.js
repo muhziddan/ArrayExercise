@@ -68,3 +68,7 @@ newArray.push(true)
 console.log(newArray)
 console.log(newArray.get(0))
 console.log(newArray.pop())
+
+// let variable = ["Hi"]
+// console.log(typeof newArray.data)
+// console.log(typeof variable)

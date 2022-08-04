@@ -12,8 +12,8 @@ function mergeArray(array1, array2) {
     }
 
     const result = []
-    var j = 0
-    var i = 0
+    let j = 0
+    let i = 0
 
     while (i <= array1.length - 1 || j <= array2.length - 1) { // O(n)
 // kalo bisa push conditionnya dijadiin fungsi baru biar lebih readable
