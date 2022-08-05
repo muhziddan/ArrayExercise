@@ -1,3 +1,12 @@
+/*
+Question
+given a string, return the reversed order of the string
+
+example:
+"Amazing code"
+return "edoc gnizamA"
+*/
+
 function reverseString(str) {
     if (!str || str.length < 2 || typeof str !== 'string') {
         return "No Input"

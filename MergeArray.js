@@ -1,3 +1,18 @@
+/*
+Question
+given two set of sorted array, merge both of the array
+
+example:
+[3, 7, 11, 15] and [1, 2, 20, 31]
+return [1,2,3,7,11,15,20,31]
+
+[3, 7, 100] and [5, 7, 14, 20, 45]
+return [3,5,7,7,14,20,45,100]
+
+[1, 2, 3] and []
+return [1, 2, 3]
+*/
+
 function mergeArray(array1, array2) {
 
     // check
